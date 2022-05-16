@@ -12,7 +12,7 @@ echo
 echo Instalar las dependencias necesarias.
 echo
 sudo apt install -y curl apt-transport-https \
-     software-properties-common ca-certificates
+     software-properties-common ca-certificates 
 echo
 echo Instalar docker
 echo
@@ -38,4 +38,4 @@ echo Se reiniciara el  equipo
 echo
 sudo reboot
 echo 
-              
+
