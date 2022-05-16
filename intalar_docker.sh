@@ -1,8 +1,7 @@
-  GNU nano 5.4                                                                                 docker                                                                                           
+#########
 #!/bin/sh
-echo ----------------------------------------------------
-echo -------- Realizado por Jhoselbert Urbina -----------
-echo ----------------------------------------------------
+echo
+echo ---------->>>
 echo
 echo NOTA: Ejecutar con permisos SUDO, despues de ejecutar el script se reiniciara el equipo
 echo
