@@ -34,8 +34,8 @@ echo Se Agregara un usuario al grupo docker para usar docker sin el comando sudo
 echo
 sudo gpasswd -a "${USER}" docker
 echo
-# Se reiniciara el  equipo
+echo Se reiniciara el  equipo
 echo
-#sudo reboot
+sudo reboot
 echo 
               
