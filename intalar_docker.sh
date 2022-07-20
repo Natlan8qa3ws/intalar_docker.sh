@@ -1,7 +1,7 @@
 #########
 #!/bin/sh
 echo
-echo ---------->>>
+echo -----------------------------------------
 echo
 echo NOTA: Ejecutar con permisos SUDO, despues de ejecutar el script se reiniciara el equipo
 echo
