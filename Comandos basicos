@@ -1,0 +1,4 @@
+# Para ver las imagenes que tenemos intaladas
+docker images
+
+#
