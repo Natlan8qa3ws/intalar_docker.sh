@@ -1,4 +1,17 @@
 # Para ver las imagenes que tenemos intaladas
 docker images
 
-#
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+200401073/authy     latest              ea54960ffd1b        14 months ago       240MB
+
+
+# Descargar Imagenes https://hub.docker.com/
+
+docker pull 200401073/authy             #Nota: al usar pull descarga la ultima imagen
+
+docker pull node                     # Para especificar version de imagenes
+docker pull node:18
+
+
+
+
