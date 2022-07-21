@@ -1,3 +1,4 @@
+# https://www.youtube.com/watch?v=4Dko5W96WHg
 # Para ver las imagenes que tenemos intaladas
 docker images
 
@@ -9,9 +10,12 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 
 docker pull 200401073/authy             #Nota: al usar pull descarga la ultima imagen
 
-docker pull node                     # Para especificar version de imagenes
+docker pull node                     # Para especificar version de imagenes , en este caso es la misma imagen diferentes etiquetas una latest y otra 18
 docker pull node:18
 
+# Indicar plataforma de descarga
+
+docker pull platform linux/x86:64 Mysql
 
 
 
