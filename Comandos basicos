@@ -36,5 +36,5 @@ docker container rm
 # Para correr el contenedor copiar el id que se genero
 
 docker start f99b9b7b085a676b
-
+docker ps -a
 
