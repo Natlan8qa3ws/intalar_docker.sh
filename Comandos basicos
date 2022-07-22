@@ -17,5 +17,16 @@ docker pull node:18
 
 docker pull platform linux/x86:64 Mysql
 
+# Eliminar imagen 
+
+docker image rm ?????
+
+# Crear contenedor
+
+docker create pihole/pihole
+
+# Para correr el contenedor copiar el id que se genero
+
+docker start f99b9b7b085a676b
 
 
