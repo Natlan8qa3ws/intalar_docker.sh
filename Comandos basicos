@@ -1,4 +1,11 @@
+#Antes de todo habilitar en sysctl.conf
+net.ipv4.ip_forward=1
+
 # https://www.youtube.com/watch?v=4Dko5W96WHg
+# Vercion de docker
+docker -v
+docker version
+
 # Para ver las imagenes que tenemos intaladas
 docker images
 
@@ -24,6 +31,7 @@ docker image rm ?????
 # Crear contenedor
 
 docker create pihole/pihole
+docker container rm
 
 # Para correr el contenedor copiar el id que se genero
 
