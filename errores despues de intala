@@ -1,0 +1,9 @@
+1) Respuesta de error del daemon: cgroups: el punto de montaje de cgroup no existe: desconocido.
+
+$ sudo mkdir /sys/fs/cgroup/systemd
+$ sudo mount -t cgroup -o none,name=systemd cgroup /sys/fs/cgroup/systemd
+
+2) redireccionamiento  
+
+net.ipv4.ip_forward = 1
+
